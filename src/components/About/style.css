@@ -1,0 +1,57 @@
+.about {
+  height: 120vh;
+  width: 100%;
+  margin-top: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about__quote {
+  text-align: center;
+  font-size: 2rem;
+  width: 60rem;
+  height: 4rem;
+  font-style: italic;
+  color: #083d51;
+}
+
+.about__header {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #083d51;
+}
+
+.about__header span {
+  color: #f64c31;
+}
+
+.about__cards {
+  width: 100%;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about__cards .card {
+  height: 25rem;
+  width: 25rem;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 50px -21px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 50px -21px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

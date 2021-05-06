@@ -1,0 +1,41 @@
+@import "../../variables";
+.about {
+  height: 120vh;
+  width: 100%;
+  margin-top: 18rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  
+  &__quote {
+    text-align: center;
+    font-size: $fontMid;
+    width: 60rem;
+    height: 4rem;
+    font-style: italic;
+    color: $colorBlue;
+  }
+  &__header {
+    font-size: $fontBig;
+    font-weight: bold;
+    color: $colorBlue;
+    
+    span {
+      color: $colorOrange;
+    }
+  }
+  &__cards {
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    .card {
+      height: 25rem;
+      width: 25rem;
+      background-color: #fff;
+      box-shadow: 2px 2px 50px -21px rgba(0, 0, 0, 0.4);
+      border-radius: 5px;
+    }
+  }
+}

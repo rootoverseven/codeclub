@@ -1,0 +1,53 @@
+@import "../../variables";
+
+.sign {
+  width: 100%;
+  height: 100vh;
+  background-color: $colorWhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__form {
+    width: 30rem;
+    height: 30rem;
+    background-color: #fff;
+    box-shadow: 0 0 60px -21px rgba($color: #000000, $alpha: 0.3);
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    &__header {
+      font-size: $fontMid;
+      font-weight: bold;
+      color: $colorBlue;
+    }
+    input {
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid $colorBlue;
+      font-size: $fontSmall;
+      color: $colorBlue;
+      padding: 5px 5px;
+      &::placeholder {
+        opacity: 0.6;
+        color: $colorBlue;
+      }
+    }
+    .btn-login {
+      width: 10rem;
+      height: 3rem;
+      font-size: $fontSmall;
+      color: $colorWhite;
+      background-color: $colorOrange;
+      border: none;
+      border-radius: 4rem;
+      cursor: pointer;
+      &:hover {
+        background-color: $colorBlue;
+      }
+    }
+  }
+}

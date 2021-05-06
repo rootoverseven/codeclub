@@ -1,0 +1,41 @@
+@import "../../variables";
+.nav {
+  height: 4rem;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  padding: 3rem 2rem;
+  background-color: $colorBlue;
+  .logo {
+    color: $colorOrange;
+    font-size: $fontMid;
+    font-weight: bold;
+  }
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+
+      &:not(:last-child) {
+        padding: 0 1rem;
+      }
+      a {
+        text-decoration: none;
+        color: $colorWhite;
+        padding: 0.2rem 0.5rem;
+        &.login {
+          border: 2px solid $colorOrange;
+          border-radius: 2rem;
+        }
+        &.register {
+          color: $colorOrange;
+          background-color: $colorWhite;
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
+}

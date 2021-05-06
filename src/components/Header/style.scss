@@ -1,0 +1,27 @@
+@import "../../variables";
+.header {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colorBlue;
+  h1 {
+    color: $colorWhite;
+    font-size: $fontBig;
+    padding-bottom: 3rem;
+    span {
+      color: $colorOrange;
+    }
+  }
+  .carousel {
+    width: 60em;
+    height: 25em;
+    background-color: #fff;
+    box-shadow: 2px 2px 62px -21px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    border-radius: 20px;
+    top: 65%;
+  }
+}

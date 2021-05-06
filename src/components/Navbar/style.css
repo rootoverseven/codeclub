@@ -1,0 +1,55 @@
+.nav {
+  height: 4rem;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+  padding: 3rem 2rem;
+  background-color: #083d51;
+}
+
+.nav .logo {
+  color: #f64c31;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li:not(:last-child) {
+  padding: 0 1rem;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #f4eef6;
+  padding: 0.2rem 0.5rem;
+}
+
+.nav ul li a.login {
+  border: 2px solid #f64c31;
+  border-radius: 2rem;
+}
+
+.nav ul li a.register {
+  color: #f64c31;
+  background-color: #f4eef6;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

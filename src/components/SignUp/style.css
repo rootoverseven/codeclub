@@ -1,0 +1,82 @@
+.signup {
+  width: 100%;
+  height: 100vh;
+  background-color: #f4eef6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup__form {
+  width: 50rem;
+  height: 35rem;
+  background-color: #fff;
+  margin-top: 2rem;
+  -webkit-box-shadow: 2px 2px 62px -21px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 62px -21px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.signup__form__left {
+  width: 50%;
+  height: 100%;
+  background-color: #083d51;
+  padding: 2rem;
+}
+
+.signup__form__left .heading {
+  color: #f4eef6;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.signup__form__left .input {
+  margin-bottom: 2rem;
+}
+
+.signup__form__left .input input {
+  width: 100%;
+  height: 2.3rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #f4eef6;
+  font-size: 1.2rem;
+}
+
+.signup__form__left .input input::-webkit-input-placeholder {
+  color: #f4eef6;
+  opacity: 0.6;
+}
+
+.signup__form__left .input input:-ms-input-placeholder {
+  color: #f4eef6;
+  opacity: 0.6;
+}
+
+.signup__form__left .input input::-ms-input-placeholder {
+  color: #f4eef6;
+  opacity: 0.6;
+}
+
+.signup__form__left .input input::placeholder {
+  color: #f4eef6;
+  opacity: 0.6;
+}
+
+.signup__form__right {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

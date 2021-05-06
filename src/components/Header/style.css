@@ -1,0 +1,41 @@
+.header {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #083d51;
+}
+
+.header h1 {
+  color: #f4eef6;
+  font-size: 5rem;
+  padding-bottom: 3rem;
+}
+
+.header h1 span {
+  color: #f64c31;
+}
+
+.header .carousel {
+  width: 60em;
+  height: 25em;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 62px -21px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 62px -21px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  border-radius: 20px;
+  top: 65%;
+}
+
+
+
+
+/*# sourceMappingURL=style.css.map */
