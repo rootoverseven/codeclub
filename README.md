@@ -1,5 +1,7 @@
 ## Webpage still under construction.
 
+### Official website of TINT Coding Club made using react.
+
 ## Available Scripts
 
 In the project directory, you can run:
