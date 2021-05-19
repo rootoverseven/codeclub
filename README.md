@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## Webpage still under construction.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Official website of TINT Coding Club made using react.
 
 ## Available Scripts
 
