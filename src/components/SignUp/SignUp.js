@@ -61,13 +61,13 @@ function SignUp() {
 
         if (validation(cred)) {
             document.getElementById("i").innerHTML = "Sending Data";
-            const signUpLink = 'https://tintcodingclub.herokuapp.com/users/signup';
+            const signUpLink = 'https://tintcodingclub.herokuapp.com/users/signup/';
 
             data = cred;
             const axios = require('axios')
 
             try {
-
+                console.log('data going')
                 const resp = await axios.post(signUpLink, data);
                 console.log(resp.data.ok);
                 history.push(login);

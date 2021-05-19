@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './style.scss'
-import { Redirect, useHistory } from 'react-router-dom';
+import { Redirect, useHistory, Link } from 'react-router-dom';
 
 export default function SignIn({AuthUpdate}) {
     let auth = JSON.parse(localStorage.getItem('auth'));
@@ -90,7 +90,7 @@ export default function SignIn({AuthUpdate}) {
                 <input type="password" id="loginpassword" name="password" placeholder="Enter your password"
                     value={cred.password} onChange={inputEvent} />
                 <button onClick={submit} className="btn btn-login">Login</button>
-                <span id="j"></span>
+                <span id="j">Dont have an account? <Link to="/register" className="register">Create Now</Link></span>
             </form>
         </div>
     )

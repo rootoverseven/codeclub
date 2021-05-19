@@ -1,0 +1,93 @@
+@import "../../variables";
+
+.footer {
+  height: auto;
+  width: 100%;
+  min-height: 70vh;
+  background-color: $colorBlue;
+  padding: 2rem 8rem;
+  .logo {
+    text-align: center;
+    font-size: $fontMid;
+    color: $colorOrange;
+    font-weight: bold;
+    img {
+      width: 5rem;
+      height: auto;
+    }
+  }
+  .footer_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: $colorWhite;
+    font-size: 1.2rem;
+    .col {
+      width: 33%;
+      display: flex;
+      justify-content: flex-start;
+      //   align-items: center;
+      //   text-align: center;
+      flex-direction: column;
+      padding: 1rem;
+      ul {
+        list-style: none;
+        li {
+          margin-bottom: 0.5rem;
+          line-height: 2;
+          a {
+            text-decoration: none;
+            color: $colorWhite;
+            &:hover {
+              color: $colorOrange;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .item {
+        margin-bottom: 0.5rem;
+        line-height: 2;
+        a {
+          color: white;
+          &:hover {
+            color: $colorOrange;
+          }
+        }
+      }
+      input {
+        width: 90%;
+        height: 4rem;
+        outline: none;
+        padding: 0 10px;
+        border: 2px solid $colorWhite;
+        background-color: transparent;
+        color: $colorWhite;
+        font-size: 1rem;
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+      .btn-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        width: 10rem;
+        cursor: pointer;
+        padding: 2rem 1rem;
+        border: 2px solid $colorWhite;
+        background-color: $colorOrange;
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  .copyright {
+    text-align: center;
+    color: $colorWhite;
+    opacity: 0.5;
+    margin-top: 1rem;
+  }
+}

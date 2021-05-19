@@ -1,0 +1,46 @@
+@import "../../variables";
+.create_blog{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 4rem;
+        height: 150vh;
+        background-color: white;
+        box-shadow: 10px 10px 25px rgba($color: #000000, $alpha: 0.2);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4rem;
+        .blog_element{
+            width: 100%;
+            padding: 0rem 2rem;
+            text-align: center;
+            font-size: 1.3rem;
+            &.blog_content{
+                height: 30rem;
+                text-align: left;
+                padding: 1rem ;
+            }
+            &#title,&#tags,&#category{
+                height: 3rem;
+                border: none;
+                border-bottom: 2px solid $colorBlue;
+                outline: none;
+                &::placeholder{
+                    font-size: 1.3rem;
+                    color:rgba($color: $colorBlue, $alpha: 0.5)
+                
+                }
+            }
+
+        }
+        
+    }
+}

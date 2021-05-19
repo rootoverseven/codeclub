@@ -1,26 +1,30 @@
 @import "../../variables";
 .about {
-  height: 120vh;
+  height: 140vh;
   width: 100%;
   margin-top: 18rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  
+
   &__quote {
     text-align: center;
-    font-size: $fontMid;
+    font-size: 1rem;
     width: 60rem;
     height: 4rem;
     font-style: italic;
     color: $colorBlue;
+    margin-bottom: 8rem;
+    img {
+      margin-top: 4rem;
+    }
   }
   &__header {
     font-size: $fontBig;
     font-weight: bold;
     color: $colorBlue;
-    
+
     span {
       color: $colorOrange;
     }
@@ -36,6 +40,25 @@
       background-color: #fff;
       box-shadow: 2px 2px 50px -21px rgba(0, 0, 0, 0.4);
       border-radius: 5px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      padding: 2rem 4rem;
+      text-align: center;
+      .title {
+        font-size: $fontMid;
+        color: $colorBlue;
+        margin-top: 2rem;
+        font-weight: 500;
+      }
+      .content {
+        margin-top: 1rem;
+        line-height: 2;
+        color: $colorBlue;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+      }
     }
   }
 }

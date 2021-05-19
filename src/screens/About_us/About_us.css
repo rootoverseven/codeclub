@@ -1,0 +1,56 @@
+.head h1 {
+  color: rgb(255, 78, 34);
+  text-align: center;
+  font-size: 2.7rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 10rem;
+}
+.container {
+  margin: 100px, 100px;
+  color: rgb(73, 29, 131);
+  padding-left: 17%;
+  padding-right: 17%;
+  font-size: 1.6rem;
+}
+.card {
+  margin-bottom: 45px;
+  padding: 20px;
+  /* border: 1px solid red; */
+  box-shadow: -0.2em 0 0.7em rgb(207, 207, 207),
+    -0.2em 0 0.7em rgb(211, 211, 211);
+}
+.details_container {
+  display: flex;
+  width: 900px;
+}
+.image {
+  height: 120px;
+  width: 120px;
+  padding: 15px;
+  background-size: cover;
+  /* background-image: url("yuvraj.jpg"); */
+  border-radius: 500px;
+  color: green;
+}
+.image img {
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+  border-radius: 500px;
+}
+.details {
+  margin-left: 40px;
+  width: 700px;
+}
+.details strong {
+  font-size: 1.1rem;
+  color: rgb(70, 70, 70);
+}
+.stream {
+  font-size: 0.8rem;
+  color: rgb(63, 63, 63);
+}
+.details p {
+  font-size: 1rem;
+  color: gray;
+}
