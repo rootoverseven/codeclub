@@ -25,12 +25,11 @@ export const Header = ({auth}) => {
           };
           document.getElementById("left").innerHTML = "Enrolling...";
           const res =await axios.post('https://tintcodingclub.herokuapp.com/users/register-webinar/',null , config);
-          console.log(res.data)
           if(res.data.success==true){
-            document.getElementById("left").innerHTML = `Successfully enrolled!<br/>Your registration no. is <b>${res.data.reg_number}</b><br/>Please note it for future reference.<br/>Please check your mail for more details.`;
+            document.getElementById("left").innerHTML = `<h3>Successfully enrolled!</h3><br/>Your registration no. is <b>${res.data.reg_number}</b><br/>Please note it for future reference.<br/>Please check your mail for more details.`;
           }
           else {
-            document.getElementById("left").innerHTML = `You are already registered<br/>Please check your mail.`;
+            document.getElementById("left").innerHTML = `<h3>You are already registered</h3><br/>Please check your mail.`;
           }
         }
         catch (error) {
@@ -45,7 +44,7 @@ export const Header = ({auth}) => {
                     params={{
                         "particles": {
                           "number": {
-                            "value": 60,
+                            "value": 45,
                             "density": {
                               "enable": true,
                               "value_area": 800
@@ -98,7 +97,7 @@ export const Header = ({auth}) => {
                           },
                           "move": {
                             "enable": true,
-                            "speed": 4,
+                            "speed": 2,
                             "direction": "none",
                             "random": false,
                             "straight": false,
@@ -157,7 +156,7 @@ export const Header = ({auth}) => {
                   <div className="left" id="left">
                     <div className="title">GitHub Workshop</div>
                     <div className="content">
-                      <div className="date">Date: 22nd May</div>
+                      <div className="date">Date: 22nd May, 2021</div>
                       <div className="platform">Platform: MS Teams</div>
                       <div className="who">Open To all</div>
                       <div className="problems">For any queries Contact:- <br /><br />

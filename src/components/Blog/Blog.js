@@ -11,7 +11,6 @@ export default function Blog(props) {
     //let blogIndex = 1;
     let totalBlogs=JSON.parse(sessionStorage.getItem('blogs'))
     let img=null;
-    console.log(blogIndex)
 
     if(parseInt(blogIndex)===1)
     {

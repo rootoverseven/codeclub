@@ -51,7 +51,6 @@ export default function SignIn({AuthUpdate}) {
             try {
 
                 const resp = await axios.post(loginLink, data);
-                console.log(resp.data.access);
                 //document.getElementById("form2").innerHTML = JSON.stringify(resp.data.access);
                 
                 localStorage.setItem("auth", JSON.stringify(resp.data.access));
@@ -63,7 +62,6 @@ export default function SignIn({AuthUpdate}) {
                 };
                 document.getElementById("j").innerHTML = "Getting profile data";
                 const res =await axios.get('https://tintcodingclub.herokuapp.com/users/profile/', config);
-                console.log(res.data.userData);
                 localStorage.setItem("prof", JSON.stringify(res.data.userData));
                 AuthUpdate();
                 history.push(home);

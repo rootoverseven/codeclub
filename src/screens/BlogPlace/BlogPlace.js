@@ -12,16 +12,10 @@ export default function Blogs(props) {
 
 
     function readMore(e) {
-
-        console.log(e.target.id);
         sessionStorage.setItem("blogIndex", e.target.id);
         history.push(`/singleblog`);
 
     }
-
-
-
-    console.log(props.totalBlogs.data.blogs[0].blog_content);
 
     for (let i = 0; i < props.totalBlogs.data.count; i++) {
 
@@ -39,9 +33,6 @@ export default function Blogs(props) {
     }
     //bArr[0].image=api2;
     //bArr[1].image=flask;
-
-
-    console.log(bArr[0].image);
 
     return (
         <div className="blog_page">

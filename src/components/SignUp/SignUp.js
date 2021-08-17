@@ -40,7 +40,7 @@ function SignUp() {
         if (cred.firstName === "" || cred.lastName === "" || cred.email === "" || cred.dob === "" || cred.password === "" || cred.courseName === "" || cred.department === "" || cred.yearOfAdmission === "" || cred.yearOfPassing === "" || cred.studentId === "") {
             check = false;
             document.getElementById("i").innerHTML = "Please enter all the fields";
-        } else if (!/tict.edu.in\s*$/.test(cred.email)) {
+        } else if (!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(cred.email) && !/tint.edu.in\s*$/.test(cred.email)) {
             check = false;
             document.getElementById("i").innerHTML = "Enter a valit tint email";
         }
@@ -67,9 +67,7 @@ function SignUp() {
             const axios = require('axios')
 
             try {
-                console.log('data going')
                 const resp = await axios.post(signUpLink, data);
-                console.log(resp.data.ok);
                 history.push(login);
             }
             catch (error) {

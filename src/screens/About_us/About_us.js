@@ -81,7 +81,7 @@ const About_us = () => {
                      <div className="details">
                         <strong>PIYUSH KUMAR</strong>
                         <div className="stream">Computer Science</div>
-                        <p>“There are two ways to write error-free programs; only the third works.”</p>
+                        <p>“How many computer programmers does it take to change a light bulb?<br/>None, that is a hardware problem!”</p>
                         <p></p>
                      
                      </div>
