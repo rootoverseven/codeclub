@@ -10,7 +10,7 @@ function About() {
     const we = "<our/>";
     return (
         <div className="about" id="about">
-            <img src={img4} alt="" />
+            {/* <img src={img4} alt="" /> */}
             <div className="about__quote">
 
                 “TINT coding club is organising CODE HUNT on 8th May 2021. It is a really proud moment for <br />

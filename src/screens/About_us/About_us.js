@@ -46,6 +46,21 @@ const About_us = () => {
                <div className="card">
                <div className="details_container">
                   <div className="image">
+                  <img src="https://i.ibb.co/3kJkQJT/PIYUSH.jpg" alt="PIYUSH" border="0"/>
+                  </div>
+                     <div className="details">
+                        <strong>PIYUSH KUMAR</strong>
+                        <div className="stream">Computer Science</div>
+                        <p>“There are two ways to write error-free programs; only the third works.”</p>
+                        <p></p>
+                     
+                     </div>
+ 
+                  </div>
+               </div>
+               <div className="card">
+               <div className="details_container">
+                  <div className="image">
                   <img src="https://i.ibb.co/WgzwwCY/mayuk.jpg" alt="mayuk" border="0"/>
                   </div>
                      <div className="details">
@@ -73,207 +88,6 @@ const About_us = () => {
  
                   </div>
                </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/3kJkQJT/PIYUSH.jpg" alt="PIYUSH" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>PIYUSH KUMAR</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“There are two ways to write error-free programs; only the third works.”</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-              
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/qszWPSq/MILIND.jpg" alt="MILIND" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>MILIND SINGHANIA</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases.</p>
-                        <p></p>
-                     
-                     </div>
-
-                     
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/t4rtyM1/tarun.jpg" alt="tarun" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>TARUN KISHORE</strong>
-                        <div className="stream">Information technology</div>
-                        <p>“Standards are always out of date.  That’s what makes them standards.”</p>
-                     
-                     </div>
-
-                     
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/WVbjQG0/rohit.jpg" alt="rohit" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>ROHIT KUMAR</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“If people never did silly things, nothing intelligent would ever get done.”</p>
-                        <p></p>
-                     
-                     </div>
-
-                     
-                  </div>
-               </div>
-               
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/Lpj1m6K/RISHI.jpg" alt="RISHI" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>RISHI RAJ ROY</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“The best way to get accurate information on Usenet is to post something wrong and wait for corrections.”</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/v1V8xYs/YUVRAJ-JWALA.jpg" alt="YUVRAJ-JWALA" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>YUVRAJ JWALA</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“The best way to predict the future is to implement it.”</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               <div className="card"> <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/ScX0W45/Pics-Art-12-31-11-15-55.jpg" alt="Pics-Art-12-31-11-15-55" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>KRITI SINGH</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“Low-level programming is good for the programmer’s soul.”</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/k59b1qB/TWINKEL.jpg" alt="TWINKEL" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>TWINKLE CHATTERJEE</strong>
-                        <div className="stream">Information technology</div>
-                        <p>printf("Expect the Unexpected");</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/8bnrnxw/ASHUTOSH.jpg" alt="ASHUTOSH" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>ASHUTOSH KUMAR</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“Programming can be fun, so can cryptography; however they should not be combined.”</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/cvrhTcN/ANKIT-RAJ.jpg" alt="ANKIT-RAJ" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>ANKIT RAJ</strong>
-                        <div className="stream">Information technology</div>
-                        <p>“Before software should be reusable, it should be usable.”</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/ZgG3bF3/s-harshita.jpg" alt="s-harshita" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>S. HARSHITA</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“A program is never less than 90% complete, and never more than 95% complete.”</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src="https://i.ibb.co/L1kWHdm/KEDAR.jpg" alt="KEDAR" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>KEDARNATH MALLICK</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“The best way to predict the future is to implement it.”.</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-               <div className="card">
-               <div className="details_container">
-                  <div className="image">
-                  <img src={img} alt="KEDAR" border="0"/>
-                  </div>
-                     <div className="details">
-                        <strong>Sayan Mukherjee</strong>
-                        <div className="stream">Computer Science</div>
-                        <p>“Java is to JavaScript what car is to Carpet”.</p>
-                        <p></p>
-                     
-                     </div>
- 
-                  </div>
-               </div>
-
-
             </div>
          </div>
 
